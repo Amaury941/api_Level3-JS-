@@ -1,0 +1,27 @@
+### ERRO no get users 
+GET http://localhost:3000/users/6102b0e5c41dcd15f8062dd3 HTTP/1.1
+content-type: application/json
+
+### get user grandparent by id
+GET http://localhost:3000/users/6102b0e5c41dcd15f8062dd2/parents/6102b0e5c41dcd15f8062dd3/parents/6102b0e5c41dcd15f8062dd4 HTTP/1.1
+content-type: application/json
+
+### get user grandparents
+GET http://localhost:3000/users/6102b0e5c41dcd15f8062dd2/parents/6102b0e5c41dcd15f8062dd3/parents HTTP/1.1
+content-type: application/json
+
+### get user parent by id
+GET http://localhost:3000/users/6102b0e5c41dcd15f8062dd2/parents/6102b0e5c41dcd15f8062dd3 HTTP/1.1
+content-type: application/json
+
+### get user parents
+GET http://localhost:3000/users/6102b0e5c41dcd15f8062dd2/parents HTTP/1.1
+content-type: application/json
+
+### get user by id
+GET http://localhost:3000/users/6102b0e5c41dcd15f8062dd2 HTTP/1.1
+content-type: application/json
+
+### get users
+GET http://localhost:3000/users HTTP/1.1
+content-type: application/json

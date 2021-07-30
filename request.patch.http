@@ -1,0 +1,7 @@
+### patch user by id
+PATCH http://localhost:3000/users/6101d5da2872751d7062cf18 HTTP/1.1
+content-type: application/json
+
+{
+    "name":"Carlos"
+}

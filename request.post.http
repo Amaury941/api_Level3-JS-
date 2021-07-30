@@ -1,0 +1,18 @@
+### post user
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+    "name":"Usuário",
+    "cpf": "CPF_Usuário",
+    "parents":[{
+            "name":"Pai",
+            "cpf":"CPI_Pai",
+            "parents":[{
+                "name":"Avô",
+                "cpf":"CPF_Avô"
+                }
+            ]
+        }
+    ]
+}
